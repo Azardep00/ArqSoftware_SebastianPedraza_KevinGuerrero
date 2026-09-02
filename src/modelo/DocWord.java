@@ -29,7 +29,7 @@ public class DocWord implements IDocumento
     }
 
     @Override
-    public String salir( )
+    public String Salir( )
     {
         return "saliendo de word";
     }

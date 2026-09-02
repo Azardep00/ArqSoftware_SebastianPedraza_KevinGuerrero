@@ -11,22 +11,22 @@ public class TestPatronesCreacionales
         IDocumento word = fabricaDocumentos.getDocumento("word");
         System.out.println(word.abrir());
         System.out.println(word.guardar());
-        System.out.println(word.salir());
+        System.out.println(word.Salir());
 
         IDocumento excel = fabricaDocumentos.getDocumento("excel");
         System.out.println(excel.abrir());
         System.out.println(excel.guardar());
-        System.out.println(excel.salir());
+        System.out.println(excel.Salir());
 
         IDocumento powerPoint = fabricaDocumentos.getDocumento("powerpoint" );
         System.out.println(powerPoint.abrir());
         System.out.println(powerPoint.guardar());
-        System.out.println(powerPoint.salir());
+        System.out.println(powerPoint.Salir());
 
         System.out.println();
         System.out.println(" ||° Fabrica de imagenes °||");
 
-        IFabricaAbstracta fabricaImagenes = FabricaProductor.getFabrica("Imagen");
+        IFabricaAbstracta fabricaImagenes = FabricaProductor.getFabrica("picture");
 
         IPicture png = fabricaImagenes.getPicture("png");
         System.out.println(png.pintar());

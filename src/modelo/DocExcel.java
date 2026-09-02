@@ -14,8 +14,8 @@ public class DocExcel implements IDocumento {
         if(instance == null)
         {
             instance = new DocExcel();
-            return instance;
         }
+        return instance;
     }
 
     @Override
@@ -31,7 +31,7 @@ public class DocExcel implements IDocumento {
     }
 
     @Override
-    public String salir()
+    public String Salir()
     {
         return "saliendo de excel";
     }
